@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+a.accessibility {background-color:var(--grey3); border: 1px solid var(--grey1);}
+
+a:focus, 
+select:focus,
+option:focus, 
+input:focus, 
+button:focus,
+select:focus,
+.fa-controls input:focus + label,
+.search.show_desktop:focus {outline: 2px dotted #000; }
+
+.home .menu_holder {background: rgba(0,102,179,0.8);}
+
+.boxes3 .box:after {background-image: linear-gradient(to top, rgba(0,0,0,1) , rgba(0,0,0,0));}
+
+.header_title {padding: 30px; background: rgba(0,102,179,0.8);}
+.no_header .header_title {padding: 0; background: transparent;}
+
+.category_txt p,
+.accommodation span.loc,
+.form .info,
+.contact_info p,
+.searchbox2 span {color: #333;}
+
+.control-label {
+    display: block;
+    padding: 0 0 0 20px;
+}
+
+
+
+
+
+
+
+/**/
